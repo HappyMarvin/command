@@ -1,0 +1,14 @@
+.video__play {
+  width: 91px;
+  height: 91px;
+  cursor: pointer;
+  opacity: .4;
+  transition: opacity .3s;
+  position: absolute;
+  left: calc(50% - 45px);
+  top: calc(50% - 45px);;
+}
+
+.video__play:hover {
+  opacity: .6;
+}
