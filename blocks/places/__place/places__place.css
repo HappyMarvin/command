@@ -1,0 +1,7 @@
+.places__place {
+  box-sizing: border-box;
+  padding: 9.5% 5% 13% 11%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
