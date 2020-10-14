@@ -12,3 +12,8 @@
 @import "../blocks/intro/__image/intro__image.css";
 @import "../blocks/intro/__title/intro__title.css";
 @import "../blocks/intro/__text/intro__text.css";
+@import "../blocks/places/places.css";
+@import "../blocks/places/__image/places__image.css";
+@import "../blocks/places/__paragraph/places__paragraph.css";
+@import "../blocks/places/__place/places__place.css";
+@import "../blocks/places/__title/places__title.css";
