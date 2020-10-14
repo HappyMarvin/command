@@ -19,3 +19,10 @@
 @import "../blocks/places/__title/places__title.css";
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__copyright/footer__copyright.css";
+@import "../blocks/video/video.css";
+@import "../blocks/video/__frame/video__frame.css";
+@import "../blocks/video/__hide/video__hide.css";
+@import "../blocks/video/__overlay/video__overlay.css";
+@import "../blocks/video/__play/video__play.css";
+@import "../blocks/video/__inner-wrapper/video__inner-wrapper.css";
+@import "../blocks/video/__title/video__title.css";
