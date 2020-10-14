@@ -1,0 +1,9 @@
+.header__item {
+  margin: 0 22px 0 22px;
+  padding: 0;
+}
+
+.header__item:last-of-type {
+  justify-self: right;
+  margin-left: auto;
+}
