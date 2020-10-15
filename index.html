@@ -59,18 +59,43 @@
       </div>
     </section>
 
+    <section class="people">
+      <h2 class="people__title">люди</h2>
+      <p class="people__subtitle">Что говорят и говорили люди о путешествиях</p>
+      <ul class="people__list">
+        <li class="people__item">
+          <p class="people__name">Иван Бунин</p>
+          <blockquote class="people__quote">Человека делают счастливым три вещи: любовь, интересная работа и возможность
+            путешествовать.</blockquote>
+        </li>
+        <li class="people__item">
+          <p class="people__name">Альбер Камю</p>
+          <blockquote class="people__quote">Путешествие как самая великая и серьезная наука помогает нам вновь обрести себя.</blockquote>
+        </li>
+        <li class="people__item">
+          <p class="people__name">Норвежская пословица</p>
+          <blockquote class="people__quote">Лишь тот, кто странствует, открывает новые пути.</blockquote>
+        </li>
+        <li class="people__item">
+          <p class="people__name">Мария Захарова</p>
+          <blockquote class="people__quote">В принципе зарубежная поездка – это серьезнейшее, ответственнейшее и очень рискованное
+            предприятие.</blockquote>
+        </li>
+      </ul>
+    </section>
+
     <section class="form">
       <div class="form__container_first">
         <h2 class="form__title">Так куда же я поеду?</h2>
         <form action="/login" method="post" class="form__areas">
-          <input type="text" name="first-form" class="form__area_one" value="Я поеду ...">
-          <textarea type="text" name="second-form" class="form__area_two">Потому что я...</textarea>
+          <input type="text" name="first-form" class="form__area form__area_one" placeholder="Я поеду ...">
+          <textarea type="text" name="second-form" class="form__area form__area_two" placeholder="Потому что я..."></textarea>
         </form>
         <button class="form__button">Поехали уже куда-нибудь!</button>
       </div> 
       <div class="form__container_second">
         <img src="images/airport-schedule.jpg" class="form__image">
-      </div>     
+      </div>
     </section>
     
     <section class="video">
@@ -88,12 +113,13 @@
         </svg>
       </div>
     </section>
+
   </div>
+  <footer class="footer">
+    <div class="footer__copyright">&copy;2020</div>
+  </footer>
 </div>
       <script src="//www.youtube.com/player_api"></script>
       <script src="blocks/video/video.js"></script>
-    <footer class="footer">
-      <div class="footer__copyright">&copy;2020</div>
-</footer> 
 </body>
 </html>

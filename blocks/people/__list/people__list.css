@@ -1,0 +1,9 @@
+.people__list {
+  margin: 78px auto 0 auto;
+  max-width: 1505px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
