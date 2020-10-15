@@ -1,11 +1,7 @@
 .footer {
   width: 100%;
-  max-width: 1505px;
-  max-height: 729px;
-  height: 49vw;
+  min-height: 540px;
   background-color: orange;
   display: flex;
   margin: auto;
-  font-size: 42px;
-  font-weight: bold;
 }

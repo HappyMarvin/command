@@ -17,8 +17,15 @@
 @import "../blocks/places/__paragraph/places__paragraph.css";
 @import "../blocks/places/__place/places__place.css";
 @import "../blocks/places/__title/places__title.css";
-@import "../blocks/footer/footer.css";
-@import "../blocks/footer/__copyright/footer__copyright.css";
+@import "../blocks/form/form.css";
+@import "../blocks/form/__image/form__image.css";
+@import "../blocks/form/__button/form__button.css";
+@import "../blocks/form/__container_first/form__container_first.css";
+@import "../blocks/form/__container_second/form__container_second.css";
+@import "../blocks/form/__title/form__title.css";
+@import "../blocks/form/__areas/form__areas.css";
+@import "../blocks/form/__areas/_area_one/form__area_one.css";
+@import "../blocks/form/__areas/_area_two/form__area_two.css";
 @import "../blocks/video/video.css";
 @import "../blocks/video/__frame/video__frame.css";
 @import "../blocks/video/__hide/video__hide.css";
@@ -26,3 +33,5 @@
 @import "../blocks/video/__play/video__play.css";
 @import "../blocks/video/__inner-wrapper/video__inner-wrapper.css";
 @import "../blocks/video/__title/video__title.css";
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__copyright/footer__copyright.css";
