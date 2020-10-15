@@ -1,6 +1,6 @@
 .form__container_first {
   display: flex;
-  margin: auto;
-  justify-content: center;
   flex-direction: column;
+  padding-left: 81px;
+  box-sizing: border-box;
 }

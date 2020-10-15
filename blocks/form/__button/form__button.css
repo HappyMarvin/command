@@ -1,11 +1,13 @@
 .form__button {
-  margin-top: 16px;
-  margin-left: 160px;
-  max-width: 157px;
-  max-height: 56px;
-  font-size: 12px;
+  margin-top: 21px;
+  margin-left: 203px;
+  width: 214px;
+  height: 38px;
+  text-align: center;
   line-height: 22px;
   color: white;
   background-color: black ;
   padding: 0;
+  border: none;
+  cursor: pointer;
 }

@@ -24,8 +24,9 @@
 @import "../blocks/form/__container_second/form__container_second.css";
 @import "../blocks/form/__title/form__title.css";
 @import "../blocks/form/__areas/form__areas.css";
-@import "../blocks/form/__areas/_area_one/form__area_one.css";
-@import "../blocks/form/__areas/_area_two/form__area_two.css";
+@import "../blocks/form/__area/form__area.css";
+@import "../blocks/form/__area/_area_one/form__area_one.css";
+@import "../blocks/form/__area/_area_two/form__area_two.css";
 @import "../blocks/video/video.css";
 @import "../blocks/video/__frame/video__frame.css";
 @import "../blocks/video/__hide/video__hide.css";
@@ -33,13 +34,12 @@
 @import "../blocks/video/__play/video__play.css";
 @import "../blocks/video/__inner-wrapper/video__inner-wrapper.css";
 @import "../blocks/video/__title/video__title.css";
-<<<<<<< HEAD
 @import "../blocks/people/people.css";
 @import "../blocks/people/__title/people__title.css";
 @import "../blocks/people/__subtitle/people__subtitle.css";
 @import "../blocks/people/__quote/people__quote.css";
 @import "../blocks/people/__name/people__name.css";
-=======
+@import "../blocks/people/__list/people__list.css";
+@import "../blocks/people/__item/people__item.css";
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__copyright/footer__copyright.css";
->>>>>>> master
