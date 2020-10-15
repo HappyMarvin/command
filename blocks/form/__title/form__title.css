@@ -2,3 +2,8 @@
   margin-top: 23.2%;
   font-size: 40px;
 }
+@media screen and (max-width: 1023px) {
+  .form__title {
+    margin: 10% auto 0 auto;
+  }
+}

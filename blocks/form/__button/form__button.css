@@ -6,8 +6,9 @@
   text-align: center;
   line-height: 22px;
   color: white;
-  background-color: black ;
+  background-color: black;
   padding: 0;
   border: none;
   cursor: pointer;
+  margin-bottom: 15px;
 }

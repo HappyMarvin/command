@@ -1,4 +1,10 @@
 .form__areas {
   display: flex;
   flex-direction: column;
+  width: max-content;
+}
+@media screen and (max-width: 1023px) {
+  .form__areas {
+    margin: 0 auto;
+  }
 }
