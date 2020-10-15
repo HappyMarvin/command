@@ -5,3 +5,9 @@
   background-color: #f2f2f2;
 
 }
+
+@media screen and (max-width: 1023px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+}

@@ -3,3 +3,9 @@
   margin-bottom: 21px;
   height: 37px;
 }
+
+@media screen and (max-width: 1023px) {
+  .form__area_one {
+    margin-top: 3%;
+  }
+}

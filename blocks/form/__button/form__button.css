@@ -6,8 +6,15 @@
   text-align: center;
   line-height: 22px;
   color: white;
-  background-color: black ;
+  background-color: black;
   padding: 0;
   border: none;
   cursor: pointer;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 478px) {
+  .form__button {
+    margin-left: 88px;
+  }
 }

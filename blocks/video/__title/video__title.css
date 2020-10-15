@@ -5,3 +5,15 @@
   font-size: 39px;
   letter-spacing: 1px;
 }
+
+@media screen and (max-width: 700px) {
+  .video__title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .video__title {
+    font-size: 16px;
+  }
+}
