@@ -3,4 +3,8 @@
   color: #000;
   font-weight: bold;
   font-size: 15px;
+  transition: opacity .3s;
+}
+.header__link:hover {
+  opacity: .7;
 }

@@ -7,3 +7,13 @@
   justify-self: right;
   margin-left: auto;
 }
+
+@media screen and (max-width: 478px) {
+  .header__item {
+    margin: 20px;
+    padding: 0;
+  }
+  .header__item:last-of-type {
+    margin: 20px;
+  }
+}

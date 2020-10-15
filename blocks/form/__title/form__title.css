@@ -7,3 +7,9 @@
     margin: 10% auto 0 auto;
   }
 }
+
+@media screen and (max-width: 478px) {
+  .form__title {
+    font-size: 28px;
+  }
+}
