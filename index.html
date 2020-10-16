@@ -2,11 +2,10 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Куда я поеду</title>
-  <link rel="stylesheet" href="pages/index.css">
+  <link rel="stylesheet" href="dist/index.css">
 </head>
 <body class="page">
 <div class="container">
@@ -26,11 +25,17 @@
         <h1 class="intro__title">Куда я поеду</h1>
         <p class="intro__text">Куда я поеду сразу, как можно будет куда-то поехать</p>
       </div>
-      <img src="images/intro-image.jpeg" alt="Крыло самолёта" class="intro__image">
+      <picture class="intro__image">
+        <source type="image/webp" srcset="./images/intro-image.webp">
+        <img src="images/intro-image.jpeg" alt="Крыло самолёта" class="intro__image">
+      </picture>
     </section>
 
     <section class="places">
-      <img src="images/places-forest.jpeg" alt="Человек в лесу" class="places__image">
+      <picture class="places__image">
+        <source type="image/webp" srcset="images/places-forest.webp">
+        <img src="images/places-forest.jpeg" alt="Человек в лесу" class="places__image">
+      </picture>
       <div class="places__place">
         <h2 class="places__title">Поеду в лес</h2>
         <p class="places__paragraph">Лес — экологическая система, биоценоз, в которой главной жизненной формой
@@ -46,8 +51,14 @@
           Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на
           горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.</p>
       </div>
-      <img src="images/places-mountains.jpeg" alt="Человек в горах" class="places__image">
-      <img src="images/places-black-sea.jpeg" alt="Человек на море" class="places__image">
+      <picture class="places__image">
+        <source type="image/webp" srcset="images/places-mountains.webp">
+        <img src="images/places-mountains.jpeg" alt="Человек в горах" class="places__image">
+      </picture>
+      <picture class="places__image">
+        <source type="image/webp" srcset="images/places-black-sea.webp">
+        <img src="images/places-black-sea.jpeg" alt="Человек на море" class="places__image">
+      </picture>
       <div class="places__place">
         <h2 class="places__title">Поеду на Чёрное море</h2>
         <p class="places__paragraph">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда
@@ -89,12 +100,15 @@
         <h2 class="form__title">Так куда же я поеду?</h2>
         <form action="/login" method="post" class="form__areas">
           <input type="text" name="first-form" class="form__area form__area_one" placeholder="Я поеду ...">
-          <textarea type="text" name="second-form" class="form__area form__area_two" placeholder="Потому что я..."></textarea>
+          <textarea name="second-form" class="form__area form__area_two" placeholder="Потому что я..."></textarea>
           <button class="form__button">Поехали уже куда-нибудь!</button>
         </form>
       </div> 
       <div class="form__container_second">
-        <img src="images/airport-schedule.jpg" class="form__image">
+        <picture class="form__image">
+          <source type="image/webp" srcset="images/airport-schedule.webp">
+          <img src="images/airport-schedule.jpg" class="form__image" alt="Табло">
+        </picture>
       </div>
     </section>
     
