@@ -1,6 +1,6 @@
 **Командные соревнования: "Куда я поеду"**
 
-https://happymarvin.github.io/command/
+https://happymarvin.github.io/command/index.html
 
 Проект подготовлен в рамках учебной программы "Яндекс Практикум"
 
