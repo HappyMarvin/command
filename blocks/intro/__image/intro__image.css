@@ -3,6 +3,7 @@
   max-width: 418px;
   justify-self: center;
   margin-left: 7%;
+  display: flex;
 }
 
 @media screen and (max-width: 700px) {
